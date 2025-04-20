@@ -8,11 +8,13 @@ bevy = "0.15.3"
 bevy-inspector-egui = "0.30.0"
 bevy_egui = "0.33.0"
 bevy_panorbit_camera = "0.25.0"
+bytemuck = "1.22.0"
 evalexpr = "12.0.2"
 log = { version = "*", features = [
     "max_level_debug",
     "release_max_level_warn",
 ] }
+rayon = "1.10.0"
 
 [profile.dev]
 opt-level = 1
